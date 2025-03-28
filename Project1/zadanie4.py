@@ -1,7 +1,7 @@
 #Длина числа
 
 while True:
-    ch = input("Введите число: ")
+    ch = input("Введите целое число: ")
 
     if ch.replace('.', '', 1).lstrip('-').isdigit():
         n = float(ch)
